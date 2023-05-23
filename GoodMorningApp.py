@@ -4,12 +4,12 @@ import time
 
 timenow = int(time.strftime('%H'))
 if(timenow<12):
-    print("Morning")
+    print("Good Morning")
 elif (timenow==12):
     print("Noon")
 elif (timenow<17):
-    print("AfterNoon")
+    print("Good AfterNoon")
 elif (timenow<20):
-    print("Evening")
+    print("Good Evening")
 else:
-    print("Night")
+    print("Good Night")
