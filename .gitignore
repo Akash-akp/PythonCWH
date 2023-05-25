@@ -1,5 +1,5 @@
 .idea
 venv
 /myenv/
-myenv
+myenv/pyvenv.cfg
 myenv/*
