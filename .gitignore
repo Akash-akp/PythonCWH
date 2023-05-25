@@ -1,3 +1,5 @@
 .idea
 venv
 /myenv/
+myenv
+myenv/
