@@ -1,7 +1,7 @@
 def greet(fx):
-    def mfx(*args,**kwargs):
+    def mfx(*args, **kwargs):
         print("Hello!!! You are using this function.")
-        fx(*args,**kwargs)
+        fx(*args, **kwargs)
         print("Thanks you for using this function")
 
     return mfx;
@@ -24,4 +24,4 @@ Hello()
 
 greet(name)()
 
-greet(add)(3,4)
+greet(add)(3, 4)
